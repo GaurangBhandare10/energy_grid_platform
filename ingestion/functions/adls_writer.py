@@ -102,6 +102,7 @@ class ADLSWriter:
             f"month={timestamp.strftime('%m')}/"
             f"day={timestamp.strftime('%d')}/"
             f"region={region.upper()}/"
+            f"hour={timestamp.strftime('%H')}/"
             f"data.parquet"
         )
 
